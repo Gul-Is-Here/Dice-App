@@ -13,6 +13,18 @@ int leftDice = 1;
 int rightDice = 1;
 
 class _DicePageState extends State<DicePage> {
+  void leftDicePressed() {
+    setState(() {
+      leftDice = Random().nextInt(6) + 1;
+    });
+  }
+
+  void rightDicePressed() {
+    setState(() {
+      rightDice = Random().nextInt(6) + 1;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -55,12 +67,7 @@ class _DicePageState extends State<DicePage> {
                             foregroundColor: Colors.white,
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(5))),
-                        onPressed: () {
-                          setState(() {
-                            leftDice = Random().nextInt(6) + 1;
-                            ;
-                          });
-                        },
+                        onPressed: leftDicePressed,
                         child: Text('Player 1'))),
               ),
               Padding(
@@ -73,11 +80,7 @@ class _DicePageState extends State<DicePage> {
                             foregroundColor: Colors.white,
                             shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(5))),
-                        onPressed: () {
-                          setState(() {
-                            rightDice = Random().nextInt(6) + 1;
-                          });
-                        },
+                        onPressed: rightDicePressed,
                         child: Text('Player 2'))),
               )
             ],
