@@ -3,14 +3,7 @@
 A new Flutter project.
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Dice Roller Dark theme](https://github.com/Gul-Is-Here/Dice-App/assets/98545209/37f9771b-1776-4261-8e5e-fd750dcbb0cc)
+This is Dice Roller Image for Dark Theme with Complete Functionality Basic app.
+![Dice Roller Light Theme](https://github.com/Gul-Is-Here/Dice-App/assets/98545209/3cc95995-3ab8-4c19-b0c4-f8e4cb9c0158)
+This is Dice Roller Image for LightTheme with Complete Functionality Basic app.
